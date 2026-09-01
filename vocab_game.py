@@ -95,10 +95,10 @@ ans2 = st.text_input(
 )
 
   #อัปเดตค่าล่าสุดเข้าตัวแปร
-st.session_state.ans1_val = ans1
-st.session_state.ans2_val = ans2
-st.session_state.ans3_val = ans3
-st.session_state.ans4_val = ans4
+st.session_state.ans1_val = ans 1
+st.session_state.ans2_val = ans 2
+st.session_state.ans3_val = ans 3
+st.session_state.ans4_val = ans 4
 
 ans3 = st.text_input(
     "ข้อ 3: I went to buy a `B _ _ _ pack`. 🎒",
