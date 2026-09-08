@@ -29,7 +29,7 @@ def reset_game():
 # ----------------------------------------------------
 @st.dialog("📊 สรุปผลการเล่นเกม")
 def show_result_dialog(ans1, ans2, ans3, ans4):
-    st.balloons()
+    st.balloons()
     score = 0
 
     u_ans1 = ans1.strip().lower()
