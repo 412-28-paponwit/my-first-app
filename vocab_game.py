@@ -37,7 +37,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
     u_ans3 = ans3.strip().lower()
     u_ans4 = ans4.strip().lower()
     
-    # ตรวจข้อ 1
+    # ตรวจข้อ 1
     if u_ans1 == "apple":
         st.success("✅ ข้อ 1: ถูกต้อง")
         score += 1
